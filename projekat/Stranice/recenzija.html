@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Galerija</title>
+    <link rel="icon" href="../slike/logo.jpg" type="slike/x-icon">
+</head>
+
+<body>
+    <nav>
+        <table align="center">
+            <tr>
+				<td> <a href="../index.html">Pocetna</a> </td>
+				<td> <a href="onama.html">O nama</a> </td>
+				<td> <a href="meni.html">Meni</a></td>
+				<td> <a href="galerija.html">Galerija</a></td>
+                <td> <a href="recenzija.html">Ostavite recenziju</a> </td>
+            </tr>
+        </table>
+    </nav>
+
+    <br>
+    <h2 align="center"> Ako su vam se svideli naši kolači ostavite recenziju
+    </h2>
+
+    <form align="center">
+        <p> Ime: </p>
+        <input type="text" name="Ime" required>
+
+        <p> Prezime: </p>
+        <input type="text" name="Prezime" required>
+
+        <p> Pol: </p>
+        <input type="radio" name="Pol"> Muško
+        <input type="radio" name="Pol"> Žensko
+
+        <p> E-mail: </p>
+        <input type="email" name="email" placeholder="primer@primer.com" required>
+
+        <p> Telefon: </p>
+        <input type="tel" name="Telefon" required>
+
+        <p> Koji su vaši utisci na kolače: </p>
+        <textarea name="message" rows="15" cols="30" placeholder="ovde upišite komentar"> </textarea>
+
+        <p> Zašto birate baš nas: </p>
+        <input type="checkbox"> Kolači
+        <input type="checkbox"> Enterijer
+        <input type="checkbox"> Dobra lokacija
+        <input type="checkbox"> Atmosfera
+        <input type="checkbox"> Prijatnost osoblja
+        <br><br>
+
+        <input type="reset" value="Restart">
+
+        <input type="submit" value="Pošalji">
+
+    </form>
+</body>
+
+</html>
